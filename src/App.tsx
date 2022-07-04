@@ -1,7 +1,3 @@
-import { h } from "preact";
-
-const App = ({ name }: { name: string }): JSX.Element => {
-  return <div>Hey {name}, say hello to TypeScript.</div>;
-};
-
-export default App;
+export function App() {
+  return <h1>Hello PREACT</h1>;
+}

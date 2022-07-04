@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
-    "outDir": "lib",
+    "outDir": "dist",
     "rootDir": "src",
     "module": "esnext",
     "target": "esnext",
     "lib": ["dom", "dom.iterable", "esnext"],
-    "jsx": "react",
-    "jsxFactory": "h",
-    "jsxFragmentFactory": "Fragment",
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+    "types": ["preact"],
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
@@ -27,8 +27,8 @@
     "baseUrl": "./",
     "paths": {
       "*": ["./src/*"],
-      "react": ["node_modules/preact/compat/"],
-      "react-dom": ["node_modules/preact/compat/"]
+      "react": ["./node_modules/preact/compat/"],
+      "react-dom": ["./node_modules/preact/compat/"]
     },
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
