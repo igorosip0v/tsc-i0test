@@ -1,3 +1,1 @@
-import { App } from "./App";
-console.log(App)
-export default App;
+export { SayHello } from "./components";
