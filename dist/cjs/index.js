@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var r=require("preact/jsx-runtime"),e=require("preact/hooks");exports.SayHello=function(t){var o=function(r,e){var t="function"==typeof Symbol&&r[Symbol.iterator];if(!t)return r;var o,n,a=t.call(r),l=[];try{for(;(void 0===e||e-- >0)&&!(o=a.next()).done;)l.push(o.value)}catch(r){n={error:r}}finally{try{o&&!o.done&&(t=a.return)&&t.call(a)}finally{if(n)throw n.error}}return l}(e.useState(1),2),n=o[0];return o[1],r.jsx("div",{children:"Hello ".concat(t.name," - ").concat(n)})};
+//# sourceMappingURL=index.js.map

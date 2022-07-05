@@ -1,0 +1,2 @@
+import{jsx as r}from"preact/jsx-runtime";import{useState as o}from"preact/hooks";var t=function(t){var n=function(r,o){var t="function"==typeof Symbol&&r[Symbol.iterator];if(!t)return r;var n,e,a=t.call(r),c=[];try{for(;(void 0===o||o-- >0)&&!(n=a.next()).done;)c.push(n.value)}catch(r){e={error:r}}finally{try{n&&!n.done&&(t=a.return)&&t.call(a)}finally{if(e)throw e.error}}return c}(o(1),2),e=n[0];return n[1],r("div",{children:"Hello ".concat(t.name," - ").concat(e)})};export{t as SayHello};
+//# sourceMappingURL=index.js.map

@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "dist",
+    "declarationDir": "./types",
     "rootDir": "src",
     "module": "es6",
     "target": "es5",
@@ -23,6 +23,7 @@
     "noUncheckedIndexedAccess": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
+    "emitDeclarationOnly": true,
     "suppressImplicitAnyIndexErrors": true,
     "baseUrl": "./",
     "paths": {
