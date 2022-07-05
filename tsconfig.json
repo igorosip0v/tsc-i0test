@@ -2,8 +2,8 @@
   "compilerOptions": {
     "outDir": "dist",
     "rootDir": "src",
-    "module": "esnext",
-    "target": "esnext",
+    "module": "es6",
+    "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "jsx": "react-jsx",
     "jsxImportSource": "preact",

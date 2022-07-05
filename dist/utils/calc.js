@@ -1,1 +1,1 @@
-export const calc = (a, b) => a + b;
+export var calc = function (a, b) { return a + b; };
