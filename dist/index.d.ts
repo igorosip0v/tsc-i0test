@@ -1,7 +1,7 @@
-import { JSX } from 'preact/jsx-runtime';
+import * as preact from 'preact';
 
 declare const SayHello: (props: {
     name: string;
-}) => JSX.Element;
+}) => preact.JSX.Element;
 
 export { SayHello };
