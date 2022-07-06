@@ -1,5 +1,3 @@
-import { JSX } from "preact/jsx-runtime";
-
-export const SayHello = (props: { name: string }): JSX.Element => {
+export const SayHello = (props: { name: string }) => {
   return <div>{`Hello ${props.name}`}</div>;
 };

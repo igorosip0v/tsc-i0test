@@ -24,6 +24,11 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "emitDeclarationOnly": true,
+    "paths": {
+      "*": ["./src/*"],
+      "react": ["node_modules/preact/compat/"],
+      "react-dom": ["node_modules/preact/compat/"]
+    },
     "suppressImplicitAnyIndexErrors": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
