@@ -8,6 +8,7 @@ function $parcel$export(e, n, v, s) {
 var $f741c1e1c3470416$exports = {};
 
 $parcel$export($f741c1e1c3470416$exports, "widget", function () { return $f741c1e1c3470416$export$f0c5cfb390964b78; }, function (v) { return $f741c1e1c3470416$export$f0c5cfb390964b78 = v; });
+$parcel$export($f741c1e1c3470416$exports, "Hello", function () { return $964f8be07b3e6a5f$exports.Hello; }, function (v) { return $964f8be07b3e6a5f$exports.Hello = v; });
 
 
 var $964f8be07b3e6a5f$exports = {};
@@ -42,9 +43,9 @@ const $f741c1e1c3470416$export$f0c5cfb390964b78 = (node)=>(0, $2FoYO$render)(/*#
     }, void 0, false, {
         fileName: "src/index.tsx",
         lineNumber: 4,
-        columnNumber: 53
+        columnNumber: 46
     }, undefined), node);
 
 
-export {$f741c1e1c3470416$export$f0c5cfb390964b78 as widget, $f741c1e1c3470416$exports as default};
+export {$f741c1e1c3470416$export$f0c5cfb390964b78 as widget, $964f8be07b3e6a5f$export$f7bfe31b45496d55 as Hello, $f741c1e1c3470416$exports as default};
 //# sourceMappingURL=module.js.map

@@ -7,6 +7,7 @@ function $parcel$export(e, n, v, s) {
 }
 
 $parcel$export(module.exports, "widget", function () { return $701ea2edfb58594c$export$f0c5cfb390964b78; }, function (v) { return $701ea2edfb58594c$export$f0c5cfb390964b78 = v; });
+$parcel$export(module.exports, "Hello", function () { return $7ed9daed1f4358a0$exports.Hello; }, function (v) { return $7ed9daed1f4358a0$exports.Hello = v; });
 
 
 var $7ed9daed1f4358a0$exports = {};
@@ -41,7 +42,7 @@ const $701ea2edfb58594c$export$f0c5cfb390964b78 = (node)=>(0, $izgIm$preact.rend
     }, void 0, false, {
         fileName: "src/index.tsx",
         lineNumber: 4,
-        columnNumber: 53
+        columnNumber: 46
     }, undefined), node);
 
 
