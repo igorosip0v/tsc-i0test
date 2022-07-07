@@ -1,1 +1,0 @@
-{"version":3,"file":"index.js","sources":["../../src/components/SayHello.tsx"],"sourcesContent":["export const SayHello = (props: { name: string }) => {\n  return <div>{`Hello ${props.name}`}</div>;\n};\n"],"names":["props","_jsx","concat","name"],"mappings":"yHAAwB,SAACA,GACvB,OAAOC,sBAAM,SAASC,OAAAF,EAAMG"}

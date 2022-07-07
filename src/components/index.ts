@@ -1,1 +1,0 @@
-export { SayHello } from "./SayHello";
